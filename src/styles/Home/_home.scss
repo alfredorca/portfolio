@@ -1,37 +1,21 @@
-.homeMain {
-  height: 92.5vh;
-  width: 100%;
-  background-color: #242582;
-}
-
 .alfredosCard {
   background-color: #242582;
+  height: 93vh;
+  background-image: url('../../images/Background2.jpg');
+  background-size:cover ;
 }
 
 .alfredosCardText {
-  font-size: 4vw;
+  font-size: 5vw;
   color: white;
   padding-top: 10vh;
+  font-weight: 700;
 }
 
-.homeContainer {
-  display: flex;
-  justify-content: space-between;
+.alfredosCardTypo {
+  color: white;
 }
 
-.alfredosPic {
-  padding-top: 5vh;
-}
-
-.homeText {
-  padding-left: 3vw;
-  h2 {
-    color: white;
-    font-size: 12vh;
-    padding-top: 20vh;
-  }
-  p {
-    font-size: 5vh;
-    color: white;
-  }
+#thumbnailsContainer {
+  background-color: white;
 }

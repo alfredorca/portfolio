@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { Container } from "react-bootstrap";
 import { Prev } from "react-bootstrap/esm/PageItem";
-const words = ["Web Developer", "&& Software Engineer"];
+const words = ["Web Developer && Software Engineer"];
 
 const HomeTitle = () => {
   const [index, setIndex] = useState(0);
@@ -38,10 +39,11 @@ const HomeTitle = () => {
     }, 200);
   })
 
+
   return (
-    <>
-      <h1>{`${words[index].substring(0, subIndex)} ${blink ? "|" : ""}`}</h1>
-    </>
+   
+      <p className='alfredosCardTypo' style={{fontSize: '3vw'}}>{`${words[index].substring(0, subIndex)} ${blink ? "|" : ""}`}</p>
+    
   );
 };
 

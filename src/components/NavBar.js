@@ -4,8 +4,8 @@ import Navbar from 'react-bootstrap/Navbar'
 const NavBar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-  <Navbar.Brand href="#home">Alfredo Cedeno</Navbar.Brand>
+  <Container fluid>
+  <Navbar.Brand style={{paddingLeft: '2vw'}} href="#home">Alfredo Cedeno</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">      
@@ -19,7 +19,7 @@ const NavBar = () => {
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link eventKey={2} href="#memes">
+      <Nav.Link eventKey={2} href="#memes" style={{paddingRight: '6vw'}}>
         Contact
       </Nav.Link>
     </Nav>
