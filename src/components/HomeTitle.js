@@ -41,8 +41,10 @@ const HomeTitle = () => {
 
 
   return (
-   
-      <p className='alfredosCardTypo' style={{fontSize: '3vw'}}>{`${words[index].substring(0, subIndex)} ${blink ? "|" : ""}`}</p>
+   <div className="alfredosTypoContainer">
+      <p className='alfredosCardTypo'>{`${words[index].substring(0, subIndex)} ${blink ? "|" : ""}`}</p>
+
+   </div>
     
   );
 };

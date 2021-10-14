@@ -1,8 +1,12 @@
 .alfredosCard {
   background-color: #242582;
-  height: 93vh;
-  background-image: url('../../images/Background2.jpg');
-  background-size:cover ;
+  height: 96vh;
+  background-image: url("../../images/Background2.jpg");
+  background-size: cover;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.3rem; // you can also use px here...
+    height: 93.2vh;
+  }
 }
 
 .alfredosCardText {
@@ -10,12 +14,101 @@
   color: white;
   padding-top: 10vh;
   font-weight: 700;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.3rem;
+  }
 }
 
 .alfredosCardTypo {
   color: white;
+  @media only screen and (max-width: 600px) {
+    font-size: 100px;
+  }
 }
 
-#thumbnailsContainer {
-  background-color: white;
+.alfredosTypoContainer {
+  p {
+    font-size: 3vw;
+    @media only screen and (max-width: 600px) {
+      font-size: 5vw;
+    }
+  }
+}
+
+.firstIcon {
+  height: 14vh;
+  @media only screen and (max-width: 1024px) {
+    height: 5vh;
+  }
+}
+
+.codeJournal {
+  font-size: 5vw;
+  color: black;
+  @media only screen and (max-width: 600px) {
+    font-size: 8vw;
+  }
+}
+
+#thumbnailContainer {
+  background-color: #334756;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 2vh;
+  }
+  @media only screen and (max-width: 900px) {
+    margin-bottom: 2vh;
+  }
+
+  p {
+    color: #082032;
+    font-size: 2vw;
+    font-weight: 500;
+    @media only screen and (max-width: 600px) {
+      font-size: 4vw;
+    }
+  }
+}
+
+#thumbnailContainer2 {
+  background-color: #ff4c29;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 2vh;
+  }
+    @media only screen and (max-width: 900px) {
+    margin-bottom: 2vh;
+  }
+
+  p {
+    color: black;
+    font-size: 2vw;
+    font-weight: 500;
+    @media only screen and (max-width: 600px) {
+      font-size: 4vw;
+    }
+  }
+}
+
+#thumbnailContainer3 {
+  background-color: #082032;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    color: gray;
+    font-size: 2vw;
+    font-weight: 500;
+    @media only screen and (max-width: 600px) {
+      font-size: 4vw;
+    }
+  }
 }
