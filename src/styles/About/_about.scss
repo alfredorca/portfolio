@@ -1,0 +1,22 @@
+.aboutMain {
+ height: 94vh;
+ background-color: #090909;
+}
+
+.aboutCard {
+ padding-top: 9vh;
+ height: fit-content;
+ display: flex;
+ justify-content: space-around;
+
+ p {
+  color: white;
+  padding-top: 6vh;
+  padding-right: 2vw;
+  font-size: 7vw;
+ }
+}
+
+.aboutImage {
+ height: 50vh;
+}

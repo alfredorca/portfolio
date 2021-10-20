@@ -6,15 +6,19 @@ const HomeView = () => {
   return (
     <Container fluid>
       <Row className="alfredosCard">
-        <Col md={{ span: 10, offset: 1 }} xs={{ span: 11, offset: 1 }}>
+        <Col
+          lg={{ span: 10, offset: 1 }}
+          md={{ span: 10, offset: 1 }}
+          xs={{ span: 11, offset: 1 }}
+        >
           <Container fluid>
             <p className="alfredosCardText">Alfredo Cedeno </p>
             <HomeTitle />
           </Container>
         </Col>
-        <Col>
-        <Container>
-          <Thumbnails/>
+        <Col lg={12} md={12} xs={12}>
+          <Container>
+            <Thumbnails />
           </Container>
         </Col>
       </Row>

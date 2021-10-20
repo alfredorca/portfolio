@@ -35,16 +35,13 @@
   }
 }
 
-.firstIcon {
-  height: 14vh;
-  @media only screen and (max-width: 1024px) {
-    height: 5vh;
-  }
-}
 
 .codeJournal {
   font-size: 5vw;
   color: black;
+  @media only screen and (max-width: 1200px) and (min-width: 601px) {
+    font-size: 10vw;
+  }
   @media only screen and (max-width: 600px) {
     font-size: 8vw;
   }
@@ -56,10 +53,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 1200px) and (min-width: 901px) {
     margin-bottom: 2vh;
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 900px) and (min-width: 601px) {
+    margin-bottom: 2vh;
+  }
+  @media only screen and (max-width: 600px) {
     margin-bottom: 2vh;
   }
 
@@ -67,6 +67,9 @@
     color: #082032;
     font-size: 2vw;
     font-weight: 500;
+    @media only screen and (max-width: 1200px) and (min-width: 601px) {
+      font-size: 5vw;
+    }
     @media only screen and (max-width: 600px) {
       font-size: 4vw;
     }
@@ -79,17 +82,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and (max-width: 1200px) and (min-width: 901px) {
+    margin-bottom: 2vh;
+  }
+  @media only screen and (max-width: 900px) and (min-width: 601px) {
+    margin-bottom: 2vh;
+  }
   @media only screen and (max-width: 600px) {
     margin-bottom: 2vh;
   }
-    @media only screen and (max-width: 900px) {
-    margin-bottom: 2vh;
-  }
+
 
   p {
     color: black;
     font-size: 2vw;
     font-weight: 500;
+    @media only screen and (max-width: 1200px) and (min-width: 601px) {
+      font-size: 5vw;
+    }
     @media only screen and (max-width: 600px) {
       font-size: 4vw;
     }
@@ -102,11 +112,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media only screen and (max-width: 1200px) and (min-width: 901px) {
+    margin-bottom: 2vh;
+  }
+  @media only screen and (max-width: 900px) and (min-width: 601px) {
+    margin-bottom: 2vh;
+  }
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 2vh;
+  }
+
 
   p {
     color: gray;
     font-size: 2vw;
     font-weight: 500;
+    @media only screen and (max-width: 1200px) and (min-width: 601px) {
+      font-size: 5vw;
+    }
     @media only screen and (max-width: 600px) {
       font-size: 4vw;
     }
