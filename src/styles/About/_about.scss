@@ -1,22 +1,55 @@
 .aboutMain {
- height: 94vh;
- background-color: #090909;
+  min-height: 96vh;
+  max-height: fit-content;
+  background-color: #090909;
 }
 
 .aboutCard {
- padding-top: 9vh;
- height: fit-content;
- display: flex;
- justify-content: space-around;
+  padding-top: 9vh;
+  height: fit-content;
+}
 
- p {
-  color: white;
-  padding-top: 6vh;
-  padding-right: 2vw;
-  font-size: 7vw;
- }
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .aboutTitle {
+    color: white;
+    padding-top: 6vh;
+    padding-right: 2vw;
+    font-size: 7vw;
+    @media only screen and (max-width: 1200px) and (min-width: 901px) {
+      font-size: 8vw;
+    }
+    @media only screen and (max-width: 900px) and (min-width: 601px) {
+      
+    }
+    @media only screen and (max-width: 600px) {
+      margin-top: -8vh;
+      font-size: 10vw;
+    }
+  }
+
+  .aboutBio {
+    width: 90%;
+    @media only screen and (max-width: 1200px) {
+      width: 100%;
+    }
+
+    p {
+      font-size: 0.8vw;
+      color: white;
+      @media only screen and (max-width: 1200px) and (min-width: 601px) {
+        font-size: 1.5vw;
+      }
+      @media only screen and (max-width: 600px) {
+        font-size: 3vw;
+      }
+    }
+  }
 }
 
 .aboutImage {
- height: 50vh;
+  height: 50vh;
 }
