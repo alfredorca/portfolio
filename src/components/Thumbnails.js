@@ -10,11 +10,11 @@ const Thumbnails = () => {
         md={{ span: 9, offset: 2 }}
         xs={{ span: 9, offset: 2 }}
       >
-        <Link to='/about' style={{textDecoration: 'none'}}>
-        <Container id="thumbnailContainer" fluid>
-          <i class="bi bi-journal-code codeJournal"></i>
-          <p>About</p>
-        </Container>
+        <Link to="/about" style={{ textDecoration: "none" }}>
+          <Container id="thumbnailContainer" fluid>
+            <i class="bi bi-journal-code codeJournal"></i>
+            <p>About</p>
+          </Container>
         </Link>
       </Col>
       <Col
@@ -34,10 +34,12 @@ const Thumbnails = () => {
         md={{ span: 9, offset: 2 }}
         xs={{ span: 9, offset: 2 }}
       >
-        <Container id="thumbnailContainer3">
-          <i class="bi bi-person-lines-fill codeJournal"></i>
-          <p>Contact</p>
-        </Container>
+        <Link to="/contact" style={{ textDecoration: "none" }}>
+          <Container id="thumbnailContainer3">
+            <i class="bi bi-person-lines-fill codeJournal"></i>
+            <p>Contact</p>
+          </Container>
+        </Link>
       </Col>
     </Row>
   );

@@ -12,9 +12,7 @@ const AboutMeView = () => {
         <Col xxl={4} xl={4} lg={4} md={4} xs={12}>
           <Container>
             <div className="aboutCard">
-              <div className="aboutImageDiv">
-                <Image className="img-fluid shadow-4 aboutImage" src={pic} />
-              </div>
+              <Image className="img-fluid shadow-4 aboutImage" src={pic} />
             </div>
           </Container>
         </Col>
@@ -45,46 +43,62 @@ const AboutMeView = () => {
         </Col>
         <Col
           xl={{ span: 2, offset: 1 }}
-          lg={{ span: 2, offset: 1 }}
-          md={{ span: 9, offset: 2 }}
-          xs={{ span: 9, offset: 2 }}
+          lg={3}
+          md={{ span: 8, offset: 2 }}
+          xs={{ span: 8, offset: 2 }}
         >
           <Container className="aboutContainer">
-            <CodeIcon />
-            Experience
+            <CodeIcon fontSize="large" />
+            <h5>Experience</h5>
+            <p>
+              Graduate Full-Stack Developer from Ironhack Miami, AA in Computer
+              Science from Miami-Dade College
+            </p>
           </Container>
         </Col>
         <Col
           xl={{ span: 2, offset: 1 }}
-          lg={{ span: 2, offset: 1 }}
-          md={{ span: 9, offset: 2 }}
-          xs={{ span: 9, offset: 2 }}
+          lg={3}
+          md={{ span: 8, offset: 2 }}
+          xs={{ span: 8, offset: 2 }}
         >
           <Container className="aboutContainer">
-            <SchoolIcon />
-            Always learning
+            <SchoolIcon fontSize="large" />
+            <span>Always learning</span>
+            <p>
+              I love learning new things and taking new challenges. I thrive
+              working under pressure and applying recently acquired knowledge
+            </p>
           </Container>
         </Col>
         <Col
           xl={{ span: 2, offset: 1 }}
-          lg={{ span: 2, offset: 1 }}
-          md={{ span: 9, offset: 2 }}
-          xs={{ span: 9, offset: 2 }}
+          lg={3}
+          md={{ span: 8, offset: 2 }}
+          xs={{ span: 8, offset: 2 }}
         >
           <Container className="aboutContainer">
-            <EmojiObjectsIcon />
-            Skills
+            <EmojiObjectsIcon fontSize="large" />
+            <h5>Skills</h5>
+            <p>
+              Javascript, Bootstrap/Mui, HTML5, CSS, Sass, ES6, React.js,
+              Node.js, MongoDB
+            </p>
           </Container>
         </Col>
         <Col
           xl={{ span: 2, offset: 1 }}
-          lg={{ span: 2, offset: 1 }}
-          md={{ span: 9, offset: 2 }}
-          xs={{ span: 9, offset: 2 }}
+          lg={3}
+          md={{ span: 8, offset: 2 }}
+          xs={{ span: 8, offset: 2 }}
         >
           <Container className="aboutContainer">
-            <GamesIcon />
-            Hobbies
+            <GamesIcon fontSize="large" />
+            <h5>Hobbies</h5>
+            <p>
+              I like playing videogames, hiking, cooking, and of course,
+              programming!
+            </p>
           </Container>
         </Col>
       </Row>
